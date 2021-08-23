@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="icon" href="img/R.png">
+    <title>SGOPNOW/title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" id="logo">SHOP<span>NOW</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse search" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics_c5b70a82461a484189e700166599ce9f">ELECTRONICS</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            APPLIANCES
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" id="men" href="https://www.amazon.in/s?k=home+appliances&crid=BO7XBREXRXI1&sprefix=home+applia%2Caps%2C408&ref=nb_sb_ss_ts-doa-p_1_11">HOME APPLIANCES</a></li>
+                            <!-- <li><a class="dropdown-item" href="#">FORMAL</a></li>
+                            <li><a class="dropdown-item" href="#">PARTY WEAR</a></li>
+                            <li><a class="dropdown-item" href="#">JEANS</a></li>
+                            <li><a class="dropdown-item" href="#">SPORTS</a></li> -->
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" id="women" href="https://www.amazon.in/s?k=kitchen+appliances&ref=nb_sb_noss_2">KITCHEN APPLIANCES</a></li>
+                            <!-- <li><a class="dropdown-item" href="#">SAREE</a></li>
+                            <li><a class="dropdown-item" href="#">SUITS</a></li>
+                            <li><a class="dropdown-item" href="#">KURTI</a></li>
+                            <li><a class="dropdown-item" href="#">JEANS</a></li>
+                            <li><a class="dropdown-item" href="#">WEADDING</a></li> 
+                            -->
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles_9292c6cb7b394d30b2467b8f631090a7">MOBILES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.amazon.in/computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc_d99b175b1db64d5b968b67ba6e5a72a3">COMPUTERS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            FASHION
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" id="men" href="https://www.amazon.in/b?node=1968024031">MEN'S</a></li>
+                            <li><a class="dropdown-item" href="https://www.amazon.in/s?i=apparel&bbn=14630939031&rh=n%3A14630939031%2Cp_72%3A1318476031&s=apparels&dc&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=71030eb1-a216-460d-8b88-7621b248367e&pf_rd_r=3X1GQY2XNW44QWCHGGGC&pf_rd_s=merchandised-search-10&qid=1623742943&rnid=11301356031&ref=sr_nr_p_n_feature_nineteen_browse-bin_1">FORMAL</a></li>
+                            <li><a class="dropdown-item" href="https://www.amazon.in/s?i=apparel&bbn=1968107031&rh=n%3A1571271031%2Cn%3A1968024031%2Cn%3A1968107031%2Cn%3A1968111031&s=apparels&hidden-keywords=-scrub+-medical+-boiler+-uniform+-unisex+-industrial+-ot&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=71030eb1-a216-460d-8b88-7621b248367e&pf_rd_r=3X1GQY2XNW44QWCHGGGC&pf_rd_s=merchandised-search-10&ref=QANav11CTA_en_IN_3">SUITS</a></li>
+                            <li><a class="dropdown-item" href="https://www.amazon.in/s?i=apparel&bbn=1968024031&rh=n%3A1571271031%2Cn%3A1968024031%2Cn%3A1968076031&s=apparels&dc&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=ae252237-abdc-4a8b-93e1-5aa171451fa6&pf_rd_r=3X1GQY2XNW44QWCHGGGC&pf_rd_s=merchandised-search-8&qid=1623741300&rnid=1968024031&ref=sr_nr_n_3">JEANS</a></li>
+                            <li><a class="dropdown-item" href="https://www.amazon.in/s?i=apparel&bbn=1968024031&rh=n%3A1571271031%2Cn%3A1968024031%2Cn%3A1968097031&s=apparels&dc&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=ae252237-abdc-4a8b-93e1-5aa171451fa6&pf_rd_r=3X1GQY2XNW44QWCHGGGC&pf_rd_s=merchandised-search-8&qid=1623741349&rnid=1968024031&ref=sr_nr_n_7">SPORTS</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" id="women" href="https://www.amazon.in/b?node=1953602031">WOMEN'S</a></li>
+                            <li><a class="dropdown-item" href="https://www.amazon.in/s?i=apparel&bbn=1968256031&rh=n%3A1571271031%2Cn%3A%211571272031%2Cn%3A1953602031%2Cn%3A1968253031%2Cn%3A1968256031&s=apparels&lo=image&pf_rd_i=1953602031&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5944c010-dc62-436e-9594-859d22ee4251&pf_rd_p=5ca8f881-0906-4d88-afe0-d1398b407dae&pf_rd_r=C0RA49JXBXFS99XT7RVH&pf_rd_r=SGJPGK6FXR8FW2BD014M&pf_rd_s=merchandised-search-8&pf_rd_s=merchandised-search-9&ref=QANav11CTA_en_IN_1">SAREE</a></li>
+                            <li><a class="dropdown-item" href="https://www.amazon.in/s?i=apparel&rh=n%3A1571271031%2Cn%3A%211571272031%2Cn%3A1953602031%2Cn%3A1968253031%2Cn%3A3723380031&s=apparels&hidden-keywords=-gown+-sunglasses+-hook+-hat+-panty+-underwear+-innerwear+-bags+-edge+-peer&pf_rd_i=1953602031&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5944c010-dc62-436e-9594-859d22ee4251&pf_rd_p=5ca8f881-0906-4d88-afe0-d1398b407dae&pf_rd_r=2RZ247DWZ9WXE790W976&pf_rd_r=SGJPGK6FXR8FW2BD014M&pf_rd_s=merchandised-search-8&pf_rd_s=merchandised-search-9&ref=QANav11CTA_en_IN_3">SUITS</a></li>
+                            <li><a class="dropdown-item" href="https://www.amazon.in/s?i=apparel&rh=n%3A1571271031%2Cn%3A%211571272031%2Cn%3A1953602031%2Cn%3A1968253031%2Cn%3A1968255031&s=apparels&pf_rd_i=1953602031&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5944c010-dc62-436e-9594-859d22ee4251&pf_rd_p=5ca8f881-0906-4d88-afe0-d1398b407dae&pf_rd_r=2RZ247DWZ9WXE790W976&pf_rd_r=SGJPGK6FXR8FW2BD014M&pf_rd_s=merchandised-search-8&pf_rd_s=merchandised-search-9&ref=QANav11CTA_en_IN_2">KURTI</a></li>
+                            <li><a class="dropdown-item" href="https://www.amazon.in/s?i=apparel&rh=n%3A1571271031%2Cn%3A1571272031%2Cn%3A1953602031%2Cn%3A11400137031%2Cn%3A1968447031&s=apparels&hidden-keywords=-fitg18+-pack+-free+-heel+-secret+-rubia+-stars+-shabana+-capri+-dimpy+-pantoff+-mesh+-mukhaksh+-lava+-jannon&pf_rd_i=1953602031&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5ad4b367-32a8-4744-aa21-62f340e99065&pf_rd_p=653bb753-b324-4ae4-a96b-eec6e95a63c1&pf_rd_r=SGJPGK6FXR8FW2BD014M&pf_rd_r=V2EYC2MXBTW2EKK9EYC3&pf_rd_s=merchandised-search-10&pf_rd_s=merchandised-search-8&qid=1591189851&ref=sr_pg_1">JEANS</a></li>
+                            <li><a class="dropdown-item" href="https://www.amazon.in/s?i=apparel&bbn=1968542031&rh=n%3A1571271031%2Cn%3A1953602031%2Cn%3A11400137031%2Cn%3A1968542031%2Cn%3A1968543031&s=apparels&dc&hidden-keywords=-khyati+-crepe+-leotude+-J+-thermal+-khushal+-adyk+-vivid+-easy+-slit+-cupid+-night+-ytrick+-aania+-krishav+-lucknow+-theurbanstreet+-chakudee+-pack&pf_rd_i=1953602031&pf_rd_i=1953602031&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=0d3288f2-b644-494e-ad90-2c53ee8f7255&pf_rd_p=5ad4b367-32a8-4744-aa21-62f340e99065&pf_rd_p=653bb753-b324-4ae4-a96b-eec6e95a63c1&pf_rd_r=H02BNAY4XCKZ1WAMW56A&pf_rd_r=SGJPGK6FXR8FW2BD014M&pf_rd_r=V2EYC2MXBTW2EKK9EYC3&pf_rd_s=merchandised-search-10&pf_rd_s=merchandised-search-7&pf_rd_s=merchandised-search-8&qid=1591188338&rnid=1968542031&ref=sr_pg_1">TOP'S</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" id="kid" href="#">KID'S</a></li>
+                            <li><a class="dropdown-item" href="#b1">BOY'S</a></li>
+                            <li><a class="dropdown-item" href="#g1">GIRL'S</a></li>
+                            
+
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="search">
+                    <input class="form-control me-2 " id="btn2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn  btn-primary " id="btn1" type="submit">Search</button>
+
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-primary" id="l1" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-primary" id="s1" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+   
+
+    <!--Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Log-In Here</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Log-in</button>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <!--Signup Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Sign-Up Here</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cexampleInputPassword1" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                          </div>
+                       
+                        <button type="submit" class="btn btn-primary">Creat an Account</button>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="
+            https://source.unsplash.com/1400x400/?shoping" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                    <button type="button" class="btn btn-danger">ADD TOCART</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="
+            https://source.unsplash.com/1400x400/?mall,fashion" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                    <button type="button" class="btn btn-danger">ADD TOCART</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="
+            https://source.unsplash.com/1400x400/?mobiles" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                    <button type="button" class="btn btn-primary">BUY NOW</button>
+                    <button type="button" class="btn btn-danger">ADD TOCART</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container my-4">
+        <h1 class="d-flex justify-content:center align-items:center w=100%">TOP DEALS</h1>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12 min">
+              <a href="https://www.amazon.in/LookMark-Digital-Printed-Stitched-X-Large/dp/B094J8JJW4/ref=sr_1_5?dchild=1&keywords=shirt&qid=1628155684&sr=8-5">
+                  <img src="img/shirt1.jpg" class="mi card-img-top" alt="...">
+                </a>
+                <h2 class="center">FASHION</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/LookMark-Digital-Printed-Stitched-X-Large/dp/B094J8JJW4/ref=sr_1_5?dchild=1&keywords=shirt&qid=1628155684&sr=8-5"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram1">
+                <a href="https://www.amazon.in/Tior-Running-Cycling-Cricket-TB-628-Grey-9/dp/B08WY2FR77?ref_=Oct_s9_apbd_oup_hd_bw_b2AEduR&pf_rd_r=01CJD42BR5XC9XN44ND6&pf_rd_p=f307f26b-84d9-585f-bf07-df9020ddd153&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=1983519031">
+                <img src="img/sh.jpg" class="mi card-img-top" alt="...">
+            </a>
+                <h2 class="center">SHOES</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Tior-Running-Cycling-Cricket-TB-628-Grey-9/dp/B08WY2FR77?ref_=Oct_s9_apbd_oup_hd_bw_b2AEduR&pf_rd_r=01CJD42BR5XC9XN44ND6&pf_rd_p=f307f26b-84d9-585f-bf07-df9020ddd153&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=1983519031"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram">
+                 <a href="https://www.amazon.in/Casio-Enticer-Analog-Watch-MTP-VD01D-2EVUDF-A1364/dp/B07BS3LCP1/ref=sr_1_3?dchild=1&fst=as%3Aoff&pf_rd_i=2563504031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=311aa090-9433-4c8c-9087-a32ad583d8ab&pf_rd_r=NV7J3RPDATJKS4E09A3P&pf_rd_s=merchandised-search-7&qid=1628786751&refinements=p_89%3ACasio&rnid=3837712031&s=watch&sr=1-3">
+                <img src="img/wa.jpg" class="card-img-top" alt="...">
+            </a>
+                <h2 class="center">WATCHES</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Casio-Enticer-Analog-Watch-MTP-VD01D-2EVUDF-A1364/dp/B07BS3LCP1/ref=sr_1_3?dchild=1&fst=as%3Aoff&pf_rd_i=2563504031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=311aa090-9433-4c8c-9087-a32ad583d8ab&pf_rd_r=NV7J3RPDATJKS4E09A3P&pf_rd_s=merchandised-search-7&qid=1628786751&refinements=p_89%3ACasio&rnid=3837712031&s=watch&sr=1-3">
+             <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram">
+               <a href="https://www.amazon.in/GOD-BLESS-Womens-Top-GBK1172-XL_Red_X-Large/dp/B082B5RMJZ/ref=sr_1_2?dchild=1&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=0d3288f2-b644-494e-ad90-2c53ee8f7255&pf_rd_r=H02BNAY4XCKZ1WAMW56A&pf_rd_s=merchandised-search-10&qid=1628787118&rnid=1968542031&s=apparel&sr=1-2"> <img src="img/top.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">JWELLERY</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/GOD-BLESS-Womens-Top-GBK1172-XL_Red_X-Large/dp/B082B5RMJZ/ref=sr_1_2?dchild=1&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=0d3288f2-b644-494e-ad90-2c53ee8f7255&pf_rd_r=H02BNAY4XCKZ1WAMW56A&pf_rd_s=merchandised-search-10&qid=1628787118&rnid=1968542031&s=apparel&sr=1-2"> <button type="button" class="btn btn-primary c-1">BUY NOW</button>
+               </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container my-4" >
+        <h1 class="d-flex justify-content:center align-items:center w=100%">MEN'S</h1>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12" >
+              <a href="https://www.amazon.in/fanideaz-Regular-T-Shirt-FMPS5003NB_L_Navy-White/dp/B095BS45K9/ref=sr_1_12?dchild=1&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=ae252237-abdc-4a8b-93e1-5aa171451fa6&pf_rd_r=TXPC35ZYG90TQTNP5708&pf_rd_s=merchandised-search-8&qid=1628788362&rnid=1968120031&s=apparel&sr=1-12"><img src="img/tt.jpg" class="card-img-top" alt="...">
+            </a>
+                <h2 class="center">T-SHIRT</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/fanideaz-Regular-T-Shirt-FMPS5003NB_L_Navy-White/dp/B095BS45K9/ref=sr_1_12?dchild=1&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=ae252237-abdc-4a8b-93e1-5aa171451fa6&pf_rd_r=TXPC35ZYG90TQTNP5708&pf_rd_s=merchandised-search-8&qid=1628788362&rnid=1968120031&s=apparel&sr=1-12"><button type="button" class="btn btn-primary c-1" >BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram1">
+
+              <a href="https://www.amazon.in/Van-Heusen-Checkered-VHSFBSLPY04671_Red-White_42/dp/B07H6NNFP7/ref=sr_1_5?dchild=1&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=71030eb1-a216-460d-8b88-7621b248367e&pf_rd_r=3MG9KPKS5VM6R00CQT56&pf_rd_s=merchandised-search-10&qid=1628788596&rnid=1968093031&s=apparel&sr=1-5">  <img src="img/s11.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">SHIRT</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Van-Heusen-Checkered-VHSFBSLPY04671_Red-White_42/dp/B07H6NNFP7/ref=sr_1_5?dchild=1&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=71030eb1-a216-460d-8b88-7621b248367e&pf_rd_r=3MG9KPKS5VM6R00CQT56&pf_rd_s=merchandised-search-10&qid=1628788596&rnid=1968093031&s=apparel&sr=1-5"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram ">
+
+               <a href="https://www.amazon.in/McHenry-Regular-PolyViscose-Trousers-Beige4005-36_Beige_Size/dp/B01LCXGIL8/ref=sr_1_3?dchild=1&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=71030eb1-a216-460d-8b88-7621b248367e&pf_rd_r=3MG9KPKS5VM6R00CQT56&pf_rd_s=merchandised-search-10&qid=1628788760&rnid=1968125031&s=apparel&sr=1-3"> <img src="img/pent.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">PENTS</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+                <a href="https://www.amazon.in/McHenry-Regular-PolyViscose-Trousers-Beige4005-36_Beige_Size/dp/B01LCXGIL8/ref=sr_1_3?dchild=1&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=71030eb1-a216-460d-8b88-7621b248367e&pf_rd_r=3MG9KPKS5VM6R00CQT56&pf_rd_s=merchandised-search-10&qid=1628788760&rnid=1968125031&s=apparel&sr=1-3"><button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram">
+               <a href="https://www.amazon.in/White-Mens-Slim-Formal-Piece/dp/B07VM9GGFN/ref=sr_1_7?dchild=1&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=71030eb1-a216-460d-8b88-7621b248367e&pf_rd_r=3MG9KPKS5VM6R00CQT56&pf_rd_s=merchandised-search-10&qid=1628789656&s=apparel&sr=1-7"> <img src="img/sui.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">SUITS</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+              <a href="https://www.amazon.in/White-Mens-Slim-Formal-Piece/dp/B07VM9GGFN/ref=sr_1_7?dchild=1&pf_rd_i=1968024031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=71030eb1-a216-460d-8b88-7621b248367e&pf_rd_r=3MG9KPKS5VM6R00CQT56&pf_rd_s=merchandised-search-10&qid=1628789656&s=apparel&sr=1-7">  <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+        </div>
+    </div>
+
+     
+    <div class="container my-4" >
+        <h1 class="d-flex justify-content:center align-items:center w=100%">WOMEN'S</h1>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12" >
+               <a href="https://www.amazon.in/Yashika-Womens-Blouse-NAURTA-BLUE/dp/B08RDYXY5Q/ref=sr_1_1?dchild=1&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5944c010-dc62-436e-9594-859d22ee4251&pf_rd_r=C0RA49JXBXFS99XT7RVH&pf_rd_s=merchandised-search-8&qid=1628789890&s=apparel&sr=1-1"> <img src="img/sari.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">SAREE</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Yashika-Womens-Blouse-NAURTA-BLUE/dp/B08RDYXY5Q/ref=sr_1_1?dchild=1&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5944c010-dc62-436e-9594-859d22ee4251&pf_rd_r=C0RA49JXBXFS99XT7RVH&pf_rd_s=merchandised-search-8&qid=1628789890&s=apparel&sr=1-1"> <button type="button" class="btn btn-primary c-1" >BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram1">
+<a href="https://www.amazon.in/GoSriKi-Printed-Straight-Palazzos-GAME-GREEN_M/dp/B09736CZL2/ref=sr_1_4?dchild=1&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5944c010-dc62-436e-9594-859d22ee4251&pf_rd_r=2RZ247DWZ9WXE790W976&pf_rd_s=merchandised-search-8&qid=1628790032&s=apparel&sr=1-4">
+                <img src="img/kurti.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">KURTI</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/GoSriKi-Printed-Straight-Palazzos-GAME-GREEN_M/dp/B09736CZL2/ref=sr_1_4?dchild=1&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5944c010-dc62-436e-9594-859d22ee4251&pf_rd_r=2RZ247DWZ9WXE790W976&pf_rd_s=merchandised-search-8&qid=1628790032&s=apparel&sr=1-4"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram ">
+
+               <a href="https://www.amazon.in/Rajnandini-Printed-Unstitched-Material-JOPLLT7018_Red_Free/dp/B07RX615GG/ref=sr_1_2?dchild=1&fst=as%3Aoff&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5944c010-dc62-436e-9594-859d22ee4251&pf_rd_r=D0ANX1C2NN39HY7ZDHW6&pf_rd_s=merchandised-search-8&qid=1628790472&s=apparel&sr=1-2"> <img src="img/suite.jpg" class="card-img-top" alt="...">
+            </a>
+                <h2 class="center">SUIT</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Rajnandini-Printed-Unstitched-Material-JOPLLT7018_Red_Free/dp/B07RX615GG/ref=sr_1_2?dchild=1&fst=as%3Aoff&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=5944c010-dc62-436e-9594-859d22ee4251&pf_rd_r=D0ANX1C2NN39HY7ZDHW6&pf_rd_s=merchandised-search-8&qid=1628790472&s=apparel&sr=1-2"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram">
+               <a href="https://www.amazon.in/Glowic-Womens-Regular-D-433-M_Maroon-Medium/dp/B091DWBV2P/ref=sr_1_10?dchild=1&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=0d3288f2-b644-494e-ad90-2c53ee8f7255&pf_rd_r=EY4PS5TG37SF29NS7D46&pf_rd_s=merchandised-search-10&qid=1628790326&rnid=1968542031&s=apparel&sr=1-10"> <img src="img/top1.jpg" class="card-img-top" alt="...">
+            </a>
+                <h2 class="center">TOP</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Glowic-Womens-Regular-D-433-M_Maroon-Medium/dp/B091DWBV2P/ref=sr_1_10?dchild=1&pf_rd_i=1953602031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=0d3288f2-b644-494e-ad90-2c53ee8f7255&pf_rd_r=EY4PS5TG37SF29NS7D46&pf_rd_s=merchandised-search-10&qid=1628790326&rnid=1968542031&s=apparel&sr=1-10"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container my-4" id="b1">
+        <h1 class="d-flex justify-content:center align-items:center w=100%">BOY'S</h1>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12" >
+               <a href="https://www.amazon.in/Independence-Shirt-White-Polyester-Sleeves/dp/B08FH8Y2RV/ref=sr_1_3?dchild=1&pf_rd_i=15952293031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=2101f73b-7de3-4b4c-bacb-3d2dc07f9d97&pf_rd_r=3DHKTBN7D19B37413FGP&pf_rd_s=merchandised-search-10&qid=1628791240&s=apparel&sr=1-3"><img src="img/btt.jpg" class="card-img-top" alt="..."></a> 
+                <h2 class="center">T-SHIRT</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Independence-Shirt-White-Polyester-Sleeves/dp/B08FH8Y2RV/ref=sr_1_3?dchild=1&pf_rd_i=15952293031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=2101f73b-7de3-4b4c-bacb-3d2dc07f9d97&pf_rd_r=3DHKTBN7D19B37413FGP&pf_rd_s=merchandised-search-10&qid=1628791240&s=apparel&sr=1-3">
+             <button type="button" class="btn btn-primary c-1" >BUY NOW</button></a> 
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram1">
+
+               <a href="https://www.amazon.in/Amazon-Brand-Honey-Regular-SS19SRT321_Khakhi_11-12/dp/B07R2W7F5H/ref=sr_1_1?dchild=1&pf_rd_i=15952293031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=2101f73b-7de3-4b4c-bacb-3d2dc07f9d97&pf_rd_r=EZWD49HDPV4A03RW0JXE&pf_rd_s=merchandised-search-10&qid=1628790922&s=apparel&sr=1-1"> <img src="img/bs.jpg" class="card-img-top" alt="...">
+            </a>
+                <h2 class="center">SHIRT</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Amazon-Brand-Honey-Regular-SS19SRT321_Khakhi_11-12/dp/B07R2W7F5H/ref=sr_1_1?dchild=1&pf_rd_i=15952293031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=2101f73b-7de3-4b4c-bacb-3d2dc07f9d97&pf_rd_r=EZWD49HDPV4A03RW0JXE&pf_rd_s=merchandised-search-10&qid=1628790922&s=apparel&sr=1-1"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram ">
+
+               <a href="https://www.amazon.in/Urbano-Juniors-Stretchable-Jogger-junhpsjoggerboy-mgrey-11-12/dp/B085RNPJ4H/ref=sr_1_2?dchild=1&pf_rd_i=15952293031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=2101f73b-7de3-4b4c-bacb-3d2dc07f9d97&pf_rd_r=EZWD49HDPV4A03RW0JXE&pf_rd_s=merchandised-search-10&qid=1628791046&s=apparel&sr=1-2"><img src="img/bj.jpg" class="card-img-top" alt="..."></a> 
+                <h2 class="center">JEANS</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Urbano-Juniors-Stretchable-Jogger-junhpsjoggerboy-mgrey-11-12/dp/B085RNPJ4H/ref=sr_1_2?dchild=1&pf_rd_i=15952293031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=2101f73b-7de3-4b4c-bacb-3d2dc07f9d97&pf_rd_r=EZWD49HDPV4A03RW0JXE&pf_rd_s=merchandised-search-10&qid=1628791046&s=apparel&sr=1-2"><button type="button" class="btn btn-primary c-1">BUY NOW</button></a> 
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram">
+               <a href="https://www.amazon.in/Vihaan-Associates-Cotton-Costume-Krishna/dp/B08CVQ62XT/ref=sr_1_1?dchild=1&fst=as%3Aoff&pf_rd_i=15952293031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=2101f73b-7de3-4b4c-bacb-3d2dc07f9d97&pf_rd_r=EZWD49HDPV4A03RW0JXE&pf_rd_s=merchandised-search-10&qid=1628791145&rnid=1967851031&s=apparel&sr=1-1"> <img src="img/bk.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">KURTA</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Vihaan-Associates-Cotton-Costume-Krishna/dp/B08CVQ62XT/ref=sr_1_1?dchild=1&fst=as%3Aoff&pf_rd_i=15952293031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=2101f73b-7de3-4b4c-bacb-3d2dc07f9d97&pf_rd_r=EZWD49HDPV4A03RW0JXE&pf_rd_s=merchandised-search-10&qid=1628791145&rnid=1967851031&s=apparel&sr=1-1"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4" g1 >
+        <h1 class="d-flex justify-content:center align-items:center w=100%">GIRL'S</h1>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12" >
+                <a href="https://www.amazon.in/Max-Regular-T-Shirt-M21EBT44ROSE-Pink_Rose/dp/B091G46TRY/ref=sr_1_20?dchild=1&pf_rd_i=15952299031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=41633168-1674-4cac-81a4-8bf885c0c72a&pf_rd_r=1KCXFABZ8ZQ9F2ZQM2SP&pf_rd_s=merchandised-search-11&qid=1628791627&s=apparel&sr=1-20"><img src="img/gt.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">T-SHIRT</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Max-Regular-T-Shirt-M21EBT44ROSE-Pink_Rose/dp/B091G46TRY/ref=sr_1_20?dchild=1&pf_rd_i=15952299031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=41633168-1674-4cac-81a4-8bf885c0c72a&pf_rd_r=1KCXFABZ8ZQ9F2ZQM2SP&pf_rd_s=merchandised-search-11&qid=1628791627&s=apparel&sr=1-20"> <button type="button" class="btn btn-primary c-1" >BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram1">
+
+               <a href="https://www.amazon.in/dp/B09CHDYJD7/ref=sr_1_4?dchild=1&pf_rd_i=15952299031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=41633168-1674-4cac-81a4-8bf885c0c72a&pf_rd_r=1KCXFABZ8ZQ9F2ZQM2SP&pf_rd_s=merchandised-search-11&pf_rd_t=30901&qid=1628791891&s=apparel&sr=1-4"><img src="img/gf.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">FROCK</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+                <a href="https://www.amazon.in/dp/B09CHDYJD7/ref=sr_1_4?dchild=1&pf_rd_i=15952299031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=41633168-1674-4cac-81a4-8bf885c0c72a&pf_rd_r=1KCXFABZ8ZQ9F2ZQM2SP&pf_rd_s=merchandised-search-11&pf_rd_t=30901&qid=1628791891&s=apparel&sr=1-4"><button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram ">
+
+               <a href="https://www.amazon.in/Amazon-Brand-Regular-JHSS20GJEG005_Lt-Blue_5-6/dp/B08335XZ79/ref=sr_1_4?dchild=1&pf_rd_i=15952299031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=41633168-1674-4cac-81a4-8bf885c0c72a&pf_rd_r=1KCXFABZ8ZQ9F2ZQM2SP&pf_rd_s=merchandised-search-11&qid=1628792018&s=apparel&sr=1-4"> <img src="img/gj.jpg" class="card-img-top" alt="..."></a> 
+                <h2 class="center">JEANS</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Amazon-Brand-Regular-JHSS20GJEG005_Lt-Blue_5-6/dp/B08335XZ79/ref=sr_1_4?dchild=1&pf_rd_i=15952299031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=41633168-1674-4cac-81a4-8bf885c0c72a&pf_rd_r=1KCXFABZ8ZQ9F2ZQM2SP&pf_rd_s=merchandised-search-11&qid=1628792018&s=apparel&sr=1-4"><button type="button" class="btn btn-primary c-1">BUY NOW</button></a> 
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram">
+                <a href="https://www.amazon.in/Naughty-Ninos-Girls-Trench-NNW0078TST/dp/B07W5VJZ4Z/ref=sr_1_5?dchild=1&fst=as%3Aoff&pf_rd_i=15952299031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=41633168-1674-4cac-81a4-8bf885c0c72a&pf_rd_r=KDQTHSAKNZMKYBWY029G&pf_rd_s=merchandised-search-11&qid=1628792155&rnid=1967978031&s=apparel&sr=1-5"></a><img src="img/gje.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">JACKRT</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Naughty-Ninos-Girls-Trench-NNW0078TST/dp/B07W5VJZ4Z/ref=sr_1_5?dchild=1&fst=as%3Aoff&pf_rd_i=15952299031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=41633168-1674-4cac-81a4-8bf885c0c72a&pf_rd_r=KDQTHSAKNZMKYBWY029G&pf_rd_s=merchandised-search-11&qid=1628792155&rnid=1967978031&s=apparel&sr=1-5"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4" id="aaja1">
+        <h1 class="d-flex justify-content:center align-items:center w=100%">ELECTRONICS</h1>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+               
+               <a href="https://www.amazon.in/Orient-Electric-MGCS120G3-Special-Grinder/dp/B097V1B9QK/ref=sr_1_1_sspa?dchild=1&keywords=mixer+grinder&qid=1628792534&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTjc0TUQyT09MSFk1JmVuY3J5cHRlZElkPUEwOTE3OTcxMTEwS0tNMFdWQUVLMiZlbmNyeXB0ZWRBZElkPUEwNTA3NDI0MjA2TlFCMFowRTFHSSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="></a> <img src="img/mix.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">MIXER</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+                <a href="https://www.amazon.in/Orient-Electric-MGCS120G3-Special-Grinder/dp/B097V1B9QK/ref=sr_1_1_sspa?dchild=1&keywords=mixer+grinder&qid=1628792534&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTjc0TUQyT09MSFk1JmVuY3J5cHRlZElkPUEwOTE3OTcxMTEwS0tNMFdWQUVLMiZlbmNyeXB0ZWRBZElkPUEwNTA3NDI0MjA2TlFCMFowRTFHSSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="><button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram1">
+
+               <a href="https://www.amazon.in/LG-Inverter-Fully-Automatic-FHM1207ZDL-Technology/dp/B08CPQXH86/ref=sxin_13_trr_1380369031_3?crid=132XUB4DJRJ7H&cv_ct_cx=washing+machine&dchild=1&keywords=washing+machine&pd_rd_i=B08CPQXH86&pd_rd_r=62a7f57f-383a-474c-a4e0-ea4d137dbe64&pd_rd_w=7YAj2&pd_rd_wg=nYMxv&pf_rd_p=e105d62b-652b-41b3-9b58-617e3a9c6f72&pf_rd_r=4P1BB14TJREN3KT66N6P&qid=1628792660&sprefix=wash%2Caps%2C469&sr=1-4-439ac954-ad46-4ba0-bd86-480f8aab80ed"> <img src="img/wm.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">WASHING MACHINE</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+                <a href="https://www.amazon.in/LG-Inverter-Fully-Automatic-FHM1207ZDL-Technology/dp/B08CPQXH86/ref=sxin_13_trr_1380369031_3?crid=132XUB4DJRJ7H&cv_ct_cx=washing+machine&dchild=1&keywords=washing+machine&pd_rd_i=B08CPQXH86&pd_rd_r=62a7f57f-383a-474c-a4e0-ea4d137dbe64&pd_rd_w=7YAj2&pd_rd_wg=nYMxv&pf_rd_p=e105d62b-652b-41b3-9b58-617e3a9c6f72&pf_rd_r=4P1BB14TJREN3KT66N6P&qid=1628792660&sprefix=wash%2Caps%2C469&sr=1-4-439ac954-ad46-4ba0-bd86-480f8aab80ed"><button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram ">
+
+               <a href="https://www.amazon.in/Godrej-Inverter-Direct-Cool-Single-Refrigerator/dp/B08VJ4R17W/ref=sr_1_14?dchild=1&keywords=fridge&qid=1628792842&sr=8-14"> <img src="img/re.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">REFRIGORATER</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+                <a href="https://www.amazon.in/Godrej-Inverter-Direct-Cool-Single-Refrigerator/dp/B08VJ4R17W/ref=sr_1_14?dchild=1&keywords=fridge&qid=1628792842&sr=8-14"><button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram">
+               <a href="https://www.amazon.in/Bajaj-Microwave-1701-MT-White/dp/B00F15AFPY/ref=sr_1_4?crid=11UJH9NB8FCCX&dchild=1&keywords=microwave+ovens&qid=1628793004&sprefix=micr%2Caps%2C434&sr=8-4"> <img src="img/mw.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">MICROWAVE</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+                <a href="https://www.amazon.in/Bajaj-Microwave-1701-MT-White/dp/B00F15AFPY/ref=sr_1_4?crid=11UJH9NB8FCCX&dchild=1&keywords=microwave+ovens&qid=1628793004&sprefix=micr%2Caps%2C434&sr=8-4"><button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container my-4" id="aaja2">
+        <h1 class="d-flex justify-content:center align-items:center w=100%">MOBILES & ACCESSORIES</h1>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+               <a href="https://www.amazon.in/Portronics-Power-PRO-10K-Emergency/dp/B08PZ67MMY/ref=sr_1_2_sspa?_encoding=UTF8&dchild=1&pf_rd_i=mobile&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=858d8928-bf3e-4386-a7e2-d84ec3be28fa&pf_rd_r=J2P1RMFN9JF7D0SASE7X&pf_rd_s=merchandised-search-15&pf_rd_t=Gateway&qid=1628829521&refinements=p_n_power_source_browse-bin%3A11875798031%2Cp_85%3A10440599031%2Cp_72%3A1318477031&rps=1&s=electronics&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExR1VTQlQ4NzhHTkEmZW5jcnlwdGVkSWQ9QTA5OTExMzEyNVUzSzdZQlkxVEVUJmVuY3J5cHRlZEFkSWQ9QTAxNjU5NDIxTDc5MzFESVpWWDBIJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="> <img src="img/pb.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">POWER BANK</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Portronics-Power-PRO-10K-Emergency/dp/B08PZ67MMY/ref=sr_1_2_sspa?_encoding=UTF8&dchild=1&pf_rd_i=mobile&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=858d8928-bf3e-4386-a7e2-d84ec3be28fa&pf_rd_r=J2P1RMFN9JF7D0SASE7X&pf_rd_s=merchandised-search-15&pf_rd_t=Gateway&qid=1628829521&refinements=p_n_power_source_browse-bin%3A11875798031%2Cp_85%3A10440599031%2Cp_72%3A1318477031&rps=1&s=electronics&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExR1VTQlQ4NzhHTkEmZW5jcnlwdGVkSWQ9QTA5OTExMzEyNVUzSzdZQlkxVEVUJmVuY3J5cHRlZEFkSWQ9QTAxNjU5NDIxTDc5MzFESVpWWDBIJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram1">
+
+               <a href="https://www.amazon.in/CEDO-Redmi-9A-Protection-Rubberised/dp/B08K4CLR4Y/ref=lp_21360365031_1_1"> <img src="img/mcover.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center"> PHONE COVER</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/CEDO-Redmi-9A-Protection-Rubberised/dp/B08K4CLR4Y/ref=lp_21360365031_1_1"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram ">
+
+               <a href="https://www.amazon.in/Adjustable-Holder-Universal-Windshield-Smartphones/dp/B0746JGVDS/ref=lp_17503533031_1_1"> <img src="img/stand.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">MOBILE STAND</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/Adjustable-Holder-Universal-Windshield-Smartphones/dp/B0746JGVDS/ref=lp_17503533031_1_1"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram">
+              <a href="https://www.amazon.in/POPIO-Tempered-Samsung-Transparent-Coverage/dp/B08547T1SD/ref=lp_16684240031_1_1">  <img src="img/mgard.jpg" class="card-img-top" alt="..."></a> 
+                <h2 class="center">PROTECTOR</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+              <a href="https://www.amazon.in/POPIO-Tempered-Samsung-Transparent-Coverage/dp/B08547T1SD/ref=lp_16684240031_1_1"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a> 
+            </div> 
+        </div>
+    </div>
+
+
+    <div class="container my-4" id="aaja3">
+        <h1 class="d-flex justify-content:center align-items c-1:center w=100%">COMPUTERS</h1>
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12 " >
+               <a href="https://www.amazon.in/b/ref=PC_revamp_sbc2_6?pf_rd_r=48WFQWCSJG7T1Z4S7ERV&pf_rd_p=ea90cf32-8f56-45fb-96bb-d3309054d77f&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-14&pf_rd_t=&pf_rd_i=976392031&node=1375354031"> <img src="img/gc.jpg" class="card-img-top " alt="..."></a>
+                <h2 class="center">GRAPHIC CARD</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+               <a href="https://www.amazon.in/b/ref=PC_revamp_sbc2_6?pf_rd_r=48WFQWCSJG7T1Z4S7ERV&pf_rd_p=ea90cf32-8f56-45fb-96bb-d3309054d77f&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-14&pf_rd_t=&pf_rd_i=976392031&node=1375354031"> <button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram1">
+
+               <a href="https://www.amazon.in/b/ref=PC_revamp21_sbb_desk_6?pf_rd_r=48WFQWCSJG7T1Z4S7ERV&pf_rd_p=c11148e0-1396-4986-82b3-a2289fd25973&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-13&pf_rd_t=&pf_rd_i=976392031&node=1375425031"><img src="img/cm.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">MONITOR</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+                <a href="https://www.amazon.in/b/ref=PC_revamp21_sbb_desk_6?pf_rd_r=48WFQWCSJG7T1Z4S7ERV&pf_rd_p=c11148e0-1396-4986-82b3-a2289fd25973&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-13&pf_rd_t=&pf_rd_i=976392031&node=1375425031"><button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram ">
+
+               <a href="https://www.amazon.in/b/ref=PC_revamp21_sbb_desk_5?pf_rd_r=H7K17DGTG409VBQM8VJA&pf_rd_p=c11148e0-1396-4986-82b3-a2289fd25973&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-13&pf_rd_t=&pf_rd_i=976392031&node=1375443031"> <img src="img/cp.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">PRINTER</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+                <a href="https://www.amazon.in/b/ref=PC_revamp21_sbb_desk_5?pf_rd_r=H7K17DGTG409VBQM8VJA&pf_rd_p=c11148e0-1396-4986-82b3-a2289fd25973&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-13&pf_rd_t=&pf_rd_i=976392031&node=1375443031"><button type="button" class="btn btn-primary c-1">BUY NOW</button> </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ram">
+                <a href="https://www.amazon.in/s?hidden-keywords=B08DRR5D14%7C+B08JHCB8SM%7C+B01IUDUJE0%7C+B071RSD473%7C+B01DXVK3KY%7C+B07C2X8KZV%7C+B07GVR9TG7%7C+B01LX8Z8TP%7C+B0759QMF85%7C+B01N57VABO%7C+B0741FFT6F%7C+B017IGEPWW%7C+B014VB4N4M%7C+B07R29BN14%7C+B07TW8RZV8%7C+B07XG85YMF%7C+B07CC7BHXH%7C+B07W9KYT62%7C+B07DYWS92W%7C+B085PFRFKX%7C+B0859MHXXB%7C+B08DVG2S7G%7C+B075JMF84S%7C+B07B1CLPXN%7C+B07BTWRVNH%7C+B07Z82WB3V%7C+B077DQ3NXR%7C+B0752FD3XJ%7C+B0085IAT6Y%7C+B007O7J026%7C+B078L5J7G1%7C+B07HLD64LN%7C+B07DGPYKLP%7C+B07Z7NY23Q%7C+B07C2ZKZR4%7C+B07B1B2CZV%7C+B00QGOQ2BA&pf_rd_i=1375427031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=4da1b7c8-ae02-4a1c-ab1d-6b1b4118d5a3&pf_rd_r=GZHW0RDVHXY6SEHA4D66&pf_rd_s=merchandised-search-5&pf_rd_t=101&ref=s9_acss_bw_cg_header_2c1_w"><img src="img/cr.jpg" class="card-img-top" alt="..."></a>
+                <h2 class="center">ROUTER</h2>
+                <p class="center"> Lorem ipsum dolor sit amet.</p>
+                <a href="https://www.amazon.in/s?hidden-keywords=B08DRR5D14%7C+B08JHCB8SM%7C+B01IUDUJE0%7C+B071RSD473%7C+B01DXVK3KY%7C+B07C2X8KZV%7C+B07GVR9TG7%7C+B01LX8Z8TP%7C+B0759QMF85%7C+B01N57VABO%7C+B0741FFT6F%7C+B017IGEPWW%7C+B014VB4N4M%7C+B07R29BN14%7C+B07TW8RZV8%7C+B07XG85YMF%7C+B07CC7BHXH%7C+B07W9KYT62%7C+B07DYWS92W%7C+B085PFRFKX%7C+B0859MHXXB%7C+B08DVG2S7G%7C+B075JMF84S%7C+B07B1CLPXN%7C+B07BTWRVNH%7C+B07Z82WB3V%7C+B077DQ3NXR%7C+B0752FD3XJ%7C+B0085IAT6Y%7C+B007O7J026%7C+B078L5J7G1%7C+B07HLD64LN%7C+B07DGPYKLP%7C+B07Z7NY23Q%7C+B07C2ZKZR4%7C+B07B1B2CZV%7C+B00QGOQ2BA&pf_rd_i=1375427031&pf_rd_m=A1K21FY43GMZF8&pf_rd_p=4da1b7c8-ae02-4a1c-ab1d-6b1b4118d5a3&pf_rd_r=GZHW0RDVHXY6SEHA4D66&pf_rd_s=merchandised-search-5&pf_rd_t=101&ref=s9_acss_bw_cg_header_2c1_w"><button type="button" class="btn btn-primary c-1">BUY NOW</button></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bd-footer py-5 mt-5 bg-dark">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <div class="container bg-dark">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label-1 form-label-1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label form-label-1">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary">SUBMIT</button>
+
+
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>Catagories</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="/">Home</a></li>
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics_c5b70a82461a484189e700166599ce9f">Electronics</a>
+                        </li>
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/s?k=appliances&crid=ZHPM1PBKTO2F&sprefix=appli%2Caps%2C390&ref=nb_sb_ss_ts-doa-p_4_5">Appliances</a>
+                        </li>
+                        <li class="mb-2"><a href="https://www.amazon.in/s?k=laptop&ref=nb_sb_noss_2">Laptops</a></li>
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles_9292c6cb7b394d30b2467b8f631090a7">Mobiles</a>
+                        </li>
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/gp/browse.html?node=6648217031&ref_=nav_cs_fashion_ad6f81eb5d474066bc9e5788a3c19a28">Fashion</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Fashion</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/b/?_encoding=UTF8&node=7459781031&ref_=sv_top_ap_mega_2">Men's</a>
+                        </li>
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/b/?_encoding=UTF8&node=7459780031&ref_=sv_top_ap_mega_1">Women's</a>
+                        </li>
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/b/?_encoding=UTF8&node=9361420031&ref_=sv_top_ap_mega_3">Kid's</a>
+                        </li>
+                        <li class="mb-2"><a href="https://www.amazon.in/s?k=shoes&i=fashion&ref=nb_sb_noss_1">Shoes</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Appliances</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/s?k=home+appliances&rh=n%3A976442031%2Cn%3A1380045031&dc&crid=1JPHK4HIFWTKL&qid=1628657189&rnid=3576079031&sprefix=home+appliances%2Caps%2C333&ref=sr_nr_n_3">Kitchen</a>
+                        </li>
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/s/ref=mega_sv_s23_1_2_1_1?rh=i%3Akitchen%2Cn%3A12464662031&ie=UTF8&lo=kitchen">Home</a>
+                        </li>
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/s/ref=mega_sv_s23_1_2_1_1?rh=i%3Akitchen%2Cn%3A12464662031&ie=UTF8&lo=kitchen">Inverters</a>
+                        </li>
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/s/ref=mega_sv_s23_1_2_1_3?rh=i%3Akitchen%2Cn%3A1380574031&ie=UTF8&lo=kitchen">Irons</a>
+                        </li>
+                        <li class="mb-2"><a
+                                href="https://www.amazon.in/s/ref=mega_sv_s23_1_2_1_2?rh=i%3Akitchen%2Cn%3A12464662031%2Cn%3A15132558031&bbn=15132558031&ie=UTF8">Water
+                                Purifiers</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Social Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href=""> <img
+                                    src="https://img.icons8.com/color/48/ffffff/facebook.png" /></a></li>
+                        <li class="mb-2"><a href=""> <img
+                                    src="https://img.icons8.com/color/48/fa314a/instagram-new.png" /></a></li>
+                        <li class="mb-2"><a href=" "><img
+                                    src="https://img.icons8.com/fluency/48/4a90e2/linkedin.png" /></a></li>
+                        <li class="mb-2"><a href=""><img
+                                    src="https://img.icons8.com/color/48/4a90e2/skype--v4.png" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="center" id="copy">All copyright<span style="color: #0d6efd;">&copy;</span>Reserved to pankaj<span>infotech</span></p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
